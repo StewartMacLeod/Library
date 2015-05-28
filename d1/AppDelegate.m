@@ -6,7 +6,11 @@
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
 //
 
+@import UIKit;
+@import Foundation;
+
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,11 +18,26 @@
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // create an instance of the view controller you want to be displayed first
+    ViewController *rootViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    // set it as the root view controller of the application's window
+    [self.window setRootViewController:rootViewController];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
+/*
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
 }
+*/
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
