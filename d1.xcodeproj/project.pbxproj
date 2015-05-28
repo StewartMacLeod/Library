@@ -13,6 +13,8 @@
 		65AB06A01B178C7400B29451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AB069F1B178C7400B29451 /* Images.xcassets */; };
 		65AB06AF1B178C7400B29451 /* d1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB06AE1B178C7400B29451 /* d1Tests.m */; };
 		65AB06B91B178CF600B29451 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AB06B81B178CF600B29451 /* ViewController.xib */; };
+		65AB06BB1B17B12800B29451 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AB06BA1B17B12800B29451 /* launch.xib */; };
+		65AB06BD1B17B36600B29451 /* iLibraryAppIcon512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AB06BC1B17B36600B29451 /* iLibraryAppIcon512x512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		65AB06AD1B178C7400B29451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65AB06AE1B178C7400B29451 /* d1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = d1Tests.m; sourceTree = "<group>"; };
 		65AB06B81B178CF600B29451 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		65AB06BA1B17B12800B29451 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = launch.xib; path = ../launch.xib; sourceTree = "<group>"; };
+		65AB06BC1B17B36600B29451 /* iLibraryAppIcon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iLibraryAppIcon512x512.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +83,13 @@
 		65AB06911B178C7400B29451 /* d1 */ = {
 			isa = PBXGroup;
 			children = (
+				65AB06BA1B17B12800B29451 /* launch.xib */,
 				65AB06961B178C7400B29451 /* AppDelegate.h */,
 				65AB06971B178C7400B29451 /* AppDelegate.m */,
 				65AB06991B178C7400B29451 /* ViewController.h */,
 				65AB069A1B178C7400B29451 /* ViewController.m */,
 				65AB06B81B178CF600B29451 /* ViewController.xib */,
+				65AB06BC1B17B36600B29451 /* iLibraryAppIcon512x512.png */,
 				65AB069F1B178C7400B29451 /* Images.xcassets */,
 				65AB06921B178C7400B29451 /* Supporting Files */,
 			);
@@ -197,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65AB06B91B178CF600B29451 /* ViewController.xib in Resources */,
+				65AB06BD1B17B36600B29451 /* iLibraryAppIcon512x512.png in Resources */,
+				65AB06BB1B17B12800B29451 /* launch.xib in Resources */,
 				65AB06A01B178C7400B29451 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
