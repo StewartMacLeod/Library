@@ -26,7 +26,6 @@
     ViewController *rootViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     // set it as the root view controller of the application's window
     [self.window setRootViewController:rootViewController];
-    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
