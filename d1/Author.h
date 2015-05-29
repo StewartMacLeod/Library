@@ -5,7 +5,8 @@
 //  Created by Stewart MacLeod on 5/28/15.
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
 //
-//  Author is a class that manages the author's first, middle and last name and only has 3 member variables.
+//  Author is a class that manages the author's first, middle
+//  and last name and only has 3 member variables.
 //
 
 #import <Foundation/Foundation.h>

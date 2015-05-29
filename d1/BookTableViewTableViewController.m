@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // these are sample rows are for the table view
     
     Book *book1 = [[Book alloc] init];
     Book *book2 = [[Book alloc] init];
@@ -28,15 +29,19 @@
     book1.bookAuthors = @"Alhir, S.";
     
     book2.bookTitle = @"Introduction to Objective-C";
-    book1.bookAuthors = @"Smith, A.";
+    book2.bookAuthors = @"Smith, A.";
     
-    book1.bookTitle = @"Unix Network Programming";
-    book1.bookAuthors = @"Stevens, R.";
+    book3.bookTitle = @"Unix Network Programming";
+    book3.bookAuthors = @"Stevens, R.";
     
     
     
     NSMutableArray *myLibrary = [[NSMutableArray alloc] initWithCapacity:60];
-                         
+
+    [myLibrary addObject:book1];
+    [myLibrary addObject:book2];
+    [myLibrary addObject:book3];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -48,7 +53,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+    
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -61,15 +66,14 @@
     return [self.myLibrary count];
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:forIndexPath:indexPath];
     
     // Configure the cell...
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
