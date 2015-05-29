@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  d1
+//  myLibrary Application
 //
 //  Created by Stewart MacLeod on 5/28/15.
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
 //
 
 @import UIKit;
-@import Foundation;   
+@import Foundation;
 
 #import "AppDelegate.h"
 #import "ViewController.h"
@@ -26,6 +26,7 @@
     ViewController *rootViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     // set it as the root view controller of the application's window
     [self.window setRootViewController:rootViewController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

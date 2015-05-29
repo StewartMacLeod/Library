@@ -33,7 +33,7 @@
                BlueprintName = "d1Tests"
                ReferencedContainer = "container:d1.xcodeproj">
             </BuildableReference>
-         </BuildActionEntry> 
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
