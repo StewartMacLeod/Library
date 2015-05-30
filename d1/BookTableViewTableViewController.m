@@ -1,10 +1,16 @@
 //
 //  BookTableViewTableViewController.m
-//  d1
+//  iLibrary Application
 //
 //  Created by Stewart MacLeod on 5/28/15.
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
 //
+//  This file instantiates the array of books in the library with
+//  an initial capacity of 60.  This will be replaced as the project
+//  moves to data sources and SQL Lite.
+//
+//  It also demonstrates creating a couple instances of book but does not
+//  them to the view controller.
 
 #import "BookTableViewTableViewController.h"
 #import "Author.h"
@@ -19,12 +25,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // these are sample rows are for the table view
+    // These are some sample rows for the table view.
+    // The next version will dynamically allow new books to be
+    // added and deleted from the library storage.  For now,
+    // it is just a NSMutable array.
     
+    // First we need to allocate storage for each book
     Book *book1 = [[Book alloc] init];
     Book *book2 = [[Book alloc] init];
     Book *book3 = [[Book alloc] init];
     
+    //  Set a couple of properties for 3 books
     book1.bookTitle = @"UML";
     book1.bookAuthors = @"Alhir, S.";
     
@@ -35,9 +46,13 @@
     book3.bookAuthors = @"Stevens, R.";
     
     
+    // Create the array for the library.  Normally, this would use lazy instantiation
+    // but since this version does not implement a master detail, it simply demonstrates
+    // adding book objects to the array.
     
     NSMutableArray *myLibrary = [[NSMutableArray alloc] initWithCapacity:60];
 
+    // Now demonstrate adding 3 sample books to library
     [myLibrary addObject:book1];
     [myLibrary addObject:book2];
     [myLibrary addObject:book3];

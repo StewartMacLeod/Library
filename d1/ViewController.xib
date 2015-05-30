@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
                 <outlet property="view" destination="iN0-l3-epB" id="Sk0-Vf-q1P"/>
+                <outlet property="viewTitle" destination="94i-W7-Yzh" id="8AU-as-Yp0"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -14,14 +15,21 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iLibrary" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="94i-W7-Yzh">
+                    <rect key="frame" x="21" y="22" width="126" height="28"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="VvL-E0-J3Y">
-                    <rect key="frame" x="0.0" y="19" width="320" height="568"/>
+                    <rect key="frame" x="8" y="51" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="239" y="364"/>
+            <point key="canvasLocation" x="252" y="375"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

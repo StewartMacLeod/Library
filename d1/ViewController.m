@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  myLibrary Application
+//  iLibrary Application
 //
 //  Created by Stewart MacLeod on 5/28/15.
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // set the title of the view controler screen
+    
+    self.viewTitle = @"iLibrary";
     // Do any additional setup after loading the view, typically from a nib.
 }
 

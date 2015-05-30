@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6548E7061B17CCFF004A2EA2 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6548E7051B17CCFF004A2EA2 /* Launch Screen.xib */; };
 		6548E7091B17D26B004A2EA2 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548E7081B17D26B004A2EA2 /* Author.m */; };
 		6548E70C1B17D643004A2EA2 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548E70B1B17D643004A2EA2 /* Book.m */; };
 		6548E70F1B17DAA7004A2EA2 /* BookTableViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548E70E1B17DAA7004A2EA2 /* BookTableViewTableViewController.m */; };
@@ -31,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6548E7051B17CCFF004A2EA2 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		6548E7071B17D26B004A2EA2 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		6548E7081B17D26B004A2EA2 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
 		6548E70A1B17D643004A2EA2 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				65AB06B81B178CF600B29451 /* ViewController.xib */,
 				6548E70D1B17DAA7004A2EA2 /* BookTableViewTableViewController.h */,
 				6548E70E1B17DAA7004A2EA2 /* BookTableViewTableViewController.m */,
-				6548E7051B17CCFF004A2EA2 /* Launch Screen.xib */,
 				65AB069F1B178C7400B29451 /* Images.xcassets */,
 				65AB06921B178C7400B29451 /* Supporting Files */,
 			);
@@ -220,7 +217,6 @@
 				65AB06B91B178CF600B29451 /* ViewController.xib in Resources */,
 				6548E7111B191B49004A2EA2 /* Default-568h@2x.png in Resources */,
 				65AB06A01B178C7400B29451 /* Images.xcassets in Resources */,
-				6548E7061B17CCFF004A2EA2 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

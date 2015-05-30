@@ -22,7 +22,7 @@
 		<key>0D375B9279F2330D042C8EBF589E510A70F5EE84</key>
 		<string>../..</string>
 		<key>4A9BE35E392E1B95CCA49AB2D3C6CE94D4FD2D45</key>
-		<string>../..d1/</string>
+		<string>../..d1</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/StewartMacLeod/Library</string>
@@ -32,14 +32,6 @@
 	<string>0D375B9279F2330D042C8EBF589E510A70F5EE84</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4A9BE35E392E1B95CCA49AB2D3C6CE94D4FD2D45</string>
-			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -54,7 +46,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>4A9BE35E392E1B95CCA49AB2D3C6CE94D4FD2D45</string>
 			<key>IDESourceControlWCCName</key>
-			<string>d1</string>
+			<string>d1d1</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A9BE35E392E1B95CCA49AB2D3C6CE94D4FD2D45</string>
+			<key>IDESourceControlWCCName</key>
+			<string>d1d1</string>
 		</dict>
 	</array>
 </dict>

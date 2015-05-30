@@ -1,10 +1,14 @@
 //
 //  AppDelegate.m
-//  myLibrary Application
+//  iLibrary Application
 //
 //  Created by Stewart MacLeod on 5/28/15.
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
 //
+//  This implementation allocates and instantiates the view
+//  from the XIB file without using storyboards.  The code sets
+//  this to be the root view controller and make it visible.
+//  It does not implement a master detail
 
 @import UIKit;
 @import Foundation;

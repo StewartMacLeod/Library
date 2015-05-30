@@ -1,10 +1,19 @@
 //
 //  Book.h
-//  myLibrary Application
+//  iLibrary Application
 //
 //  Created by Stewart MacLeod on 5/28/15.
 //  Copyright (c) 2015 Stewart MacLeod. All rights reserved.
 //
+//  This class defines the main object in the library which is
+//  a book.  Every library contains one or more books and the
+//  key properties are stored in the instances of this
+//  class.  Note: I commented out the embedded authors since
+//  the UI does not implement a master-detail relationship.
+//
+//  Properties were used so that setters and getters were created
+//  automatically by XCode.  The property names make it clear
+//  the information they will store.
 
 #import <Foundation/Foundation.h>
 
