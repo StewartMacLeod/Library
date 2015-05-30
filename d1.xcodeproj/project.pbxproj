@@ -11,6 +11,7 @@
 		6548E7091B17D26B004A2EA2 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548E7081B17D26B004A2EA2 /* Author.m */; };
 		6548E70C1B17D643004A2EA2 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548E70B1B17D643004A2EA2 /* Book.m */; };
 		6548E70F1B17DAA7004A2EA2 /* BookTableViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548E70E1B17DAA7004A2EA2 /* BookTableViewTableViewController.m */; };
+		6548E7111B191B49004A2EA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6548E7101B191B49004A2EA2 /* Default-568h@2x.png */; };
 		65AB06951B178C7400B29451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB06941B178C7400B29451 /* main.m */; };
 		65AB06981B178C7400B29451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB06971B178C7400B29451 /* AppDelegate.m */; };
 		65AB069B1B178C7400B29451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB069A1B178C7400B29451 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 		6548E70B1B17D643004A2EA2 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		6548E70D1B17DAA7004A2EA2 /* BookTableViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewTableViewController.h; sourceTree = "<group>"; };
 		6548E70E1B17DAA7004A2EA2 /* BookTableViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewTableViewController.m; sourceTree = "<group>"; };
+		6548E7101B191B49004A2EA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		65AB068F1B178C7400B29451 /* d1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AB06931B178C7400B29451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65AB06941B178C7400B29451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		65AB06861B178C7400B29451 = {
 			isa = PBXGroup;
 			children = (
+				6548E7101B191B49004A2EA2 /* Default-568h@2x.png */,
 				65AB06911B178C7400B29451 /* d1 */,
 				65AB06AB1B178C7400B29451 /* d1Tests */,
 				65AB06901B178C7400B29451 /* Products */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65AB06B91B178CF600B29451 /* ViewController.xib in Resources */,
+				6548E7111B191B49004A2EA2 /* Default-568h@2x.png in Resources */,
 				65AB06A01B178C7400B29451 /* Images.xcassets in Resources */,
 				6548E7061B17CCFF004A2EA2 /* Launch Screen.xib in Resources */,
 			);

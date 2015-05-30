@@ -13,7 +13,7 @@
 		<key>0D375B9279F2330D042C8EBF589E510A70F5EE84</key>
 		<string>https://github.com/StewartMacLeod/Library</string>
 		<key>4A9BE35E392E1B95CCA49AB2D3C6CE94D4FD2D45</key>
-		<string>https://github.com/StewartMacLeod/d1.git</string>
+		<string>https://github.com/stewartmacleod/d1</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>d1.xcodeproj</string>
@@ -22,7 +22,7 @@
 		<key>0D375B9279F2330D042C8EBF589E510A70F5EE84</key>
 		<string>../..</string>
 		<key>4A9BE35E392E1B95CCA49AB2D3C6CE94D4FD2D45</key>
-		<string>../../..</string>
+		<string>../..d1/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/StewartMacLeod/Library</string>
